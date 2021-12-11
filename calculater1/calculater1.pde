@@ -9,7 +9,7 @@ String[] show = {"7","8","9","/","4","5","6","x","1","2","3","-","0","c","=","+"
 String entery_text = "";
 
 float[] nomb = { 7 , 8 , 9 , 13 , 4 , 5 , 6 , 13 , 1 , 2 , 3 , 13 , 0 , 11 , 10 , 13 };
-float value_2, value_2, position = 0;
+float value_1, value_2, position = 0;
 String operation;
 
 int a = 10;
@@ -38,7 +38,7 @@ void setup() {
 void draw() {
   background(50);
   text(entery_text,20,60);
-  for (inti = 0;i < 16;i++) {
+  for (int i = 0;i < 16;i++) {
     oblist[i].make();
     oblist[i].pressed();
     println(value_1);
